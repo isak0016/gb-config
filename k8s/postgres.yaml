@@ -28,7 +28,7 @@ spec:
           image: quay.io/fedora/postgresql-16:latest
           envFrom:
             - secretRef:
-                name: guestbook-secret
+                name: gb-secret
           volumeMounts:
             - name: postgres-data
               mountPath: /var/lib/pgsql/data

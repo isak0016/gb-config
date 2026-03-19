@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: ghcr.io/isak0016/guestbook-frontend:4f18377c5b02ef632934a754cf44bcefa4bad5f3
+          image: ghcr.io/isak0016/guestbook-frontend:aec20fcbd3ad945145653dccbb67425c203ecd51
           ports:
             - containerPort: 8080
 ---

@@ -19,9 +19,9 @@ spec:
             - containerPort: 8080
           envFrom:
             - configMapRef:
-                name: guestbook-config
+                name: gb-config
             - secretRef:
-                name: guestbook-secret
+                name: gb-secret
 ---
 apiVersion: v1
 kind: Service
